@@ -10,7 +10,7 @@
     "heroku-postbuild": "cd client && npm run build",
     "start": "cd server && npm run start:prod"
   },
-  "author": "",
+  "author": "MK",
   "license": "ISC",
   "dependencies": {
     "husky": "^4.2.5",
