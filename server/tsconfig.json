@@ -16,7 +16,6 @@
     "paths": {
       "@controllers/*": ["controllers/*"],
       "@services/*": ["services/*"],
-      "@models/*": ["models/*"]
     }
   },
   "exclude": ["node_modules"]

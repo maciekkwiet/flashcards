@@ -3,16 +3,12 @@ import * as dotenv from 'dotenv';
 import * as express from 'express';
 import * as mongoose from 'mongoose';
 import * as cookieParser from 'cookie-parser';
-
-import { socketController } from './routes/socket';
 import { router } from 'routes';
 
 dotenv.config();
 
 const app = express();
 const server = http.createServer(app);
-
-socketController(server);
 
 const dbKey = process.env.DB_KEY;
 
